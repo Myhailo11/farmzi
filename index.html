@@ -43,6 +43,7 @@
         </div>
       </div>
     </nav>
+
     <section class="hero">
       <div class="container">
         <div class="hero__inner">
@@ -227,7 +228,7 @@
     </section>
 
     <section class="company">
-      <div class="container company--container">
+      <div class="container">
         <div class="company__inner">
           <div class="company__text">
             <p class="subtitle company--subtitle">Company intro video</p>
@@ -235,7 +236,7 @@
               See our intro video and lets start your dream project.
             </p>
           </div>
-          <img class="company__image" src="./img/leaves.png" alt="leaves" />
+          <img class="company__image" src="./img/leaves.png" alt="leaves">
         </div>
       </div>
     </section>
@@ -260,9 +261,7 @@
             <p class="subtitle">Winning Award</p>
           </li>
         </ul>
-        <div class="project__field">
-          <img class="project__img" src="./img/field.jpg" alt="field" />
-
+        <div class="project__field" style="background-image: url(./img/field.jpg)">
           <ul class="project__text">
             <li class="project__text-item">
               <span class="project__text-subtitle">Project:</span>
@@ -282,22 +281,180 @@
         </div>
       </div>
     </section>
-<section class="clients">
-  <div class="container">
-    <p class="subtitle">Happy Clients</p>
-      <h2 class="title">Farmzi got best feedback from happy clients</h2>
-        <ul class="client__list">
-          <li class="client__list">
-<p class="clients__items__text"></p>
-“Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem has been the industry's standard dummy text since the 1500 when an unknown printer took galley type and scram bled it make a type specimen book
-          </p>
-          <p class="subtitle">Founder of Musion</p>
-          <p class="clientc__author">Shoshana Horsley</p>  
+
+    <section class="clients">
+      <div class="container">
+        <p class="subtitle">Happy Clients</p>
+        <h2 class="title">Farmzi got best feedback from happy clients</h2>
+        <ul class="clients__list">
+          <li class="clients__item">
+            <p class="clients__item-text">
+              “Lorem Ipsum is simply dummy text the printing and typesetting
+              industry. Lorem has been the industry's standard dummy text since
+              the 1500 when an unknown printer took galley type and scram bled
+              it make a type specimen book
+            </p>
+            <p class="subtitle clients--subtitle">Founder of Musion</p>
+            <p class="clients__author">Shoshana Horsley</p>
+          </li>
+          <li class="clients__item">
+            <p class="clients__item-text">
+              “Lorem Ipsum is simply dummy text the printing and typesetting
+              industry. Lorem has been the industry's standard dummy text since
+              the 1500 when an unknown printer took galley type and scram bled
+              it make a type specimen book
+            </p>
+            <p class="subtitle clients--subtitle">Designer of Musion</p>
+            <p class="clients__author">Rachel Patterson</p>
+          </li>
         </ul>
-        il
-        
+      </div>
+    </section>
+
+    <section class="news">
+      <div class="container">
+        <p class="subtitle news--subtitle">Latest News</p>
+        <h2 class="title news--title">
+          Check now latest tips and tricks of gardening and landscaping from
+          blog.
+        </h2>
+        <ul class="news__list">
+          <li class="news__item news__item--first">
+            <img class="news__img" src="./img/news/beet.jpg" alt="beet">
+
+            <div class="news__inner">
+              <div class="news__author">
+                <p class="news__date"><span>Date:</span>March 23, 2022</p>
+                <p class="news__by"><span>By:</span>Kristofer Pennell</p>
+              </div>
+              <h3 class="news__title">
+                If You're Not Getting Your Garden Harvested Things!
+              </h3>
+              <p class="news__text">
+                Lorem Ipsum is simply dummy text the printing and tpesetting
+                industry. Lorem industry's standard dummy.
+              </p>
+              <a class="news__link" href="#">Read More</a>
+            </div>
+          </li>
+
+          <li class="news__item">
+            <img class="news__img" src="./img/news/berries.jpg" alt="berries">
+            <div class="news__inner">
+              <div class="news__author">
+                <p class="news__date"><span>Date:</span>March 23, 2022</p>
+                <p class="news__by"><span>By:</span>Kristofer Pennell</p>
+              </div>
+              <h3 class="news__title">
+                How to Plant Flowers with a Success Rate of 90% or Higher!
+              </h3>
+              <p class="news__text">
+                Lorem Ipsum is simply dummy text the printing and tpesetting
+                industry. Lorem industry's standard dummy.
+              </p>
+              <a class="news__link" href="#">Read More</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="news__icons-inner">
+        <div class="container">
+          <ul class="news__icons">
+            <li class="news__icond--item">
+              <img class="news__icons--img" src="./img/news/icons/one.png" alt="logo">
+            </li>
+            <li class="news__icond--item">
+              <img class="news__icons--img" src="./img/news/icons/two.png" alt="logo">
+            </li>
+            <li class="news__icond--item">
+              <img class="news__icons--img" src="./img/news/icons/third.png" alt="logo">
+            </li>
+            <li class="news__icond--item">
+              <img class="news__icons--img" src="./img/news/icons/four.png" alt="logo">
+            </li>
+            <li class="news__icond--item">
+              <img class="news__icons--img" src="./img/news/icons/five.png" alt="logo">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!--<footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <ul class="footer__item-list">
+                <h2 class="footer__item-title">Explore</h2>
+                <li class="footer__list-item">
+                  <a class="footer__link" href="#">About us</a>
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer__link" href="#">FAQ</a>
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer__link" href="#">Press & Blog</a>
+                </li>
+              </ul>
+            </li>
+            <li class="footer__item">
+              <ul class="footer__item-list">
+                <h2 class="footer__item-title">Information</h2>
+                <li class="footer__list-item">
+                  <a class="footer__link" href="#">Style Guide</a>
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer__link" href="#">Change Log</a>
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer__link" href="#">License</a>
+                </li>
+              </ul>
+            </li>
+            <li class="footer__item">
+              <ul class="footer__item-list">
+                <h2 class="footer__item-title">Service</h2>
+                <li class="footer__list-item">
+                  <a class="footer__link" href="#">Flower</a>
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer__link" href="#">Planting</a>
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer__link" href="#">Watering</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <div class="footer__preview">
+            <a class="footer__logo" href="/">
+              <img class="footer__img" src="./img/icons/logo.png" alt="logo" />
+            </a>
+            <p class="footer__text">
+              Lorem Ipsum is simply dummy text of the printing and typeset
+              industry has been the industry's standard.
+            </p>
+            <div class="nav__phone">
+              <span class="nav__phone-title">Call us:</span>
+              <a class="nav__phone-link" href="tel:0089458648"
+                >+00 89 458 648</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copy">
+      <div class="container">
+        <p class="copy__text">
+          © 2022 design and developed by <span>Brandbes</span>. Powered by
+          <span>Webflow</span>
+        </p>
+      </div>
+    </div>
+    -->
     
-  </div>
-</section>
   </body>
 </html>
