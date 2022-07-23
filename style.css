@@ -922,3 +922,29 @@ body {
   line-height: 26px;
   color: #a4d6cf;
 }
+@media screen and (max-width: 992px) {
+  .footer__preview {
+    height: 400px;
+  }
+  .footer__logo {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .footer__inner {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .footer__preview {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .footer__preview {
+    width: 380px;
+    height: 380px;
+  }
+  .footer__item-title {
+    margin-right: 40px;
+  }
+}
